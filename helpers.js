@@ -1,3 +1,4 @@
+//references : [https://github.com/adamhooper/js-priority-queue, https://github.com/augustohp/Priority-Queue-NodeJS]
 
 function PriorityQueue(comparator) {
     this._comparator = comparator || PriorityQueue.DEFAULT_COMPARATOR;
